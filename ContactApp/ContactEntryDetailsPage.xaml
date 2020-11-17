@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ContactApp.ContactEntryDetailsPage" Title="Contact">
+    <StackLayout Orientation="Vertical" Margin="8">
+        <Entry Placeholder="Name" Text="{Binding Name}"></Entry>
+        <Entry Placeholder="PhoneNumber" Text="{Binding PhoneNumber}"></Entry>
+        <Entry Placeholder="Email" Text="{Binding Email}"></Entry>
+
+        <Button Text="Save" FontSize="Medium" Clicked="OnSaveClicked"></Button>
+    </StackLayout>
+</ContentPage>
